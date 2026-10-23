@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Junelen Marie C. Rudio.">
+  <title>Junelen Marie C. Rudio | Portfolio</title>
+  <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a class="brand" href="#home">JMR</a>
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILL</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <div class="wrap hero">
+        <div>
+          <p class="eyebrow">Welcome to my portfolio</p>
+          <h1>Junelen Marie C. Rudio</h1>
+          <p class="note">“Bridging the gap between complex technology and everyday user solutions.”</p>
+          <p>I am a hardworking student who enjoys learning new things. I want to expand my knowledge, strengthen my technical skills, and become a successful professional in the future.</p>
+          <div class="actions">
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <img class="photo clickable-profile" role="button" tabindex="0" aria-label="Click to view profile picture" title="Click to enlarge profile picture" src="Image.jpg" alt="Profile picture of Junelen Marie C. Rudio">
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>About Me</h2>
+        <div class="panel">
+          <p>My name is Junelen Marie C. Rudio. I am interested in technology, computers, and learning new skills. I try my best to improve myself, learn from challenges, and work toward my goals.</p>
+          <div class="grid">
+            <div>
+              <h3>Education</h3>
+              <p><strong>Nueva Vizcaya State University</strong></p>
+              <p><strong>Program:</strong> Information Technology</p>
+            </div>
+            <div>
+              <h3>Career Goal</h3>
+              <p>To complete my studies, continue developing my technical abilities, and build a career creating useful technology solutions for people.</p>
+            </div>
+          </div>
+          <h3>Interests</h3>
+          <p>Learning, computers, and technology.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="grid">
+          <div class="panel">
+            <h3>Computer Skills</h3>
+            <ul class="pill-list">
+              <li tabindex="0" role="button" data-skill="Microsoft Word">Microsoft Word</li>
+              <li tabindex="0" role="button" data-skill="Microsoft Excel">Microsoft Excel</li>
+              <li tabindex="0" role="button" data-skill="Microsoft PowerPoint">Microsoft PowerPoint</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Personal Skills</h3>
+            <ul class="pill-list">
+              <li tabindex="0" role="button" data-skill="Hardworking">Hardworking</li>
+              <li tabindex="0" role="button" data-skill="Willingness to Learn">Willingness to Learn</li>
+              <li tabindex="0" role="button" data-skill="Teamwork">Teamwork</li>
+              <li tabindex="0" role="button" data-skill="Time Management">Time Management</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Programming</h3>
+            <ul class="pill-list">
+              <li tabindex="0" role="button" data-skill="HTML">HTML</li>
+              <li tabindex="0" role="button" data-skill="CSS">CSS</li>
+              <li tabindex="0" role="button" data-skill="JavaScript">JavaScript</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Technologies</h3>
+            <ul class="pill-list">
+              <li tabindex="0" role="button" data-skill="MySQL">MySQL</li>
+              <li tabindex="0" role="button" data-skill="GitHub">GitHub</li>
+            </ul>
+          </div>
+        </div>
+        <p id="skill-status" class="skill-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+<section id="projects">
+      <div class="wrap">
+        <h2>My Projects</h2>
+        <div class="grid">
+          <a class="panel project-card" href="#home" aria-label="View my personal portfolio homepage" style="display:block; color:inherit; text-decoration:none; transition:transform .2s ease, box-shadow .2s ease;">
+            <h3>My Personal Portfolio Website</h3>
+            <p>My personal portfolio showcasing my background, skills, and contact information.</p>
+            <span class="btn">View Portfolio ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact-card">
+          <h2>Contact Me</h2>
+          <p>Thank you for visiting my portfolio. I am always interested in learning, collaborating, and exploring technology.</p>
+          <p><strong>Email:</strong> <a href="mailto:rudiojunelenmarie9@gmail.com" style="color:white">rudiojunelenmarie9@gmail.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/rudiojunelenmarie9-pixel" target="_blank" rel="noopener noreferrer" style="color:white">github.com/rudiojunelenmarie9-pixel</a></p>
+          <h3 style="color:white; margin-top:22px;">Contact Form</h3>
+          <form id="contact-form">
+            <p><label for="contact-name">Name</label><br><input id="contact-name" name="Name" type="text" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #b7c9dc;"></p>
+            <p><label for="contact-email">Email</label><br><input id="contact-email" name="Email" type="email" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #b7c9dc;"></p>
+            <p><label for="contact-message">Message</label><br><textarea id="contact-message" name="Message" rows="4" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #b7c9dc;"></textarea></p>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          <p id="form-status" class="success" role="status"></p>
+          <p class="note" style="color:#d7e6f5; margin-top:16px;">For your privacy, this portfolio does not display your home address, phone number, birth date, or family details.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Junelen Marie C. Rudio | Personal Portfolio</p>
+  </footer>
+
+  <button class="top-button" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+
+  
+
+  <div class="profile-lightbox" id="profileLightbox" role="dialog" aria-modal="true" aria-label="Enlarged profile picture">
+    <button class="close-lightbox" type="button" aria-label="Close enlarged profile picture">&times;</button>
+    <img alt="Enlarged profile picture" id="enlargedProfile">
+  </div>
+  
+  <script src="JavaScript.js"></script>
+</body>
+</html>
